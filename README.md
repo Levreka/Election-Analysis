@@ -31,7 +31,9 @@ o	Denver: 82.8% (306,055)
 o	Arapahoe: 6.7% (24801)
 •	Making the winner of the election Diane DeGette 
 
+ ![image](https://user-images.githubusercontent.com/90356052/136720674-7fbc1fb7-c6f8-41bb-b177-87abb28345c0.png)
+
  
 
 Election-Audit Summary:
-![image](https://user-images.githubusercontent.com/90356052/136720640-15ad6024-0813-49c7-aad7-73040f7ec50f.png)
+
