@@ -37,3 +37,4 @@ o	Arapahoe: 6.7% (24801)
 
 Election-Audit Summary:
 
+Based on our findings we are confident in our code and strongly beilve that our code with slight modifications can be used for other type of elections like a municipal elections. we can determine by zip code which zip code has the highest turnout, which candidates won. This would require very little editing on already code, and if data is presented to us in the same format as before it would just be a matter of changing variables names and updating our formula to call on the right variables and indexes. The code can also be upgrade in a case scencario where there are multiple open sits in one election. Again this would required very little change to the code to the fact the we are already printing into the txt file the results of every candidate and their vote count and vote percentage. 
