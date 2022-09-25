@@ -55,24 +55,38 @@ for num in range(5):
 # This process is continued until all three items, or counties, in the list are printed to the screen.
 for i in range(len(counties)):
     print(counties[i])
-
+# exercise using tuple first step create the tuple
 counties_tuples = ("Arapahoe","Denver","Jefferson") 
+# set up the for loop to iterate through tupple
 for i in range(len(counties_tuples)):
-    print(counties_tuples)
+    print(counties_tuples[i])
+# exercise using tuple another way to print the tupple
 for county in counties_tuples:
-
-      print(county)
+    
+    print(county)
+# setting up a dictionary variable to loop over in later code
 counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+# this code will loop over the dictionary and print the keys
 for county in counties_dict:
     print(county)
+# this code will loop over the dictornay 
+# and print the keys using keys()method
+# When using the keys() method, 
+# it doesn't matter what variable name we use in the for loop. 
+# The keys() method will print each key in order.
 for county in counties_dict.keys():
     print(county)
+# this code will print the values of the dic
+# using the values methods
 for voters in counties_dict.values():
     print(voters)
+# this loop prints the values of dict by calling the key []
 for county in counties_dict:
     print(counties_dict[county])
+# this loop prints the values of dict using the "get" method
 for county in counties_dict:
     print(counties_dict.get(county))
+
 for county, voters in counties_dict.items():
     print(county, voters)
 voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
