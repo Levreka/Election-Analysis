@@ -86,27 +86,35 @@ for county in counties_dict:
 # this loop prints the values of dict using the "get" method
 for county in counties_dict:
     print(counties_dict.get(county))
-
+# This loop prints the keys and values of dict using items
 for county, voters in counties_dict.items():
     print(county, voters)
+# creating new variable that holds our list of dictionaries
 voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
                 {"county":"Denver", "registered_voters": 463353},
                 {"county":"Jefferson", "registered_voters": 432438}]
+# for loop will print the list of dict and their values
+# brake down: it will loop through the votinng_data variable
+# find the keys in county_dict and match it in the voting_data dict
+# and print them both
 for county_dict in voting_data:
     print(county_dict)
+# using range method to print the dictionary list 
 for i in range(len(voting_data)):
 
       print(voting_data[i])
-
+# loop prints the keys or counties in the voting_data dict list
+# this uses the range method
 for i in range(len(voting_data)):
 
-      print(voting_data[i])
-for county in range(len(voting_data)):
-
-     print(county)
+      print (voting_data[i]['county'])
+# nested loop prints the list of dict and values using value method 
+# first loop used to retrieve each dictionary
+# second loop used to retrieve values 
 for county_dict in voting_data:
     for value in county_dict.values():
         print(value)
+
 for county_dict in voting_data:
 
      print(county_dict['registered_voters'])
