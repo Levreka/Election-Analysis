@@ -115,18 +115,30 @@ for county_dict in voting_data:
     for value in county_dict.values():
         print(value)
 
+# this code will allow us to print only the numbers of register voters
 for county_dict in voting_data:
 
      print(county_dict['registered_voters'])
+# this code will allow us to print only the counties 
 for county_dict in voting_data:
     print(county_dict['county'])
+# printing dictionary not using F-string method note: the counties_dict
+# doesnt need to be created again since we created earlier we can 
+# just call it in the print function code runs fine either method
 counties_dict = {"Arapahoe": 369237, "Denver":413229, "Jefferson": 390222}
 for county, voters in counties_dict.items():
     print(county + " county has " + str(voters) + " registered voters.")
+# printing method using f-strings same result as code line 128-130
+# but is more intuitive and clear
 for county, voters in counties_dict.items():
     print(f"{ county } county has { voters } registered voters.")
+# code lines 136-137 create and input variable this allow users to input 
+# information that code will later use for printing the "int" is saying integer
 candidate_votes = int(input("How many votes did the candidate get in the election? "))
 total_votes = int(input("What is the total number of votes in the election? "))
+# using F-string to produce multiple strings we created a variable that 
+# holds all of our f-strings later using print we call on the variable
+# and not each individual string
 message_to_candidate = (
     f"You received {candidate_votes:,} number of votes. "
     f"The total number of votes in the election was {total_votes:,}. "
