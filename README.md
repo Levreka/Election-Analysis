@@ -1,13 +1,13 @@
 Project Overview
 Colorado Board of elections has given us the following task to complete based on Election audit data of a recent local election. 
 
-•	Calculate how the total number of votes casted
-•	Retrieve all the names of register candidates 
-•	Determine the percentage of votes each candidate received
-•	The voter turnout for each county
-•	The percentage of votes from each county out of the total count
-•	The county with the highest turnout
-•	Determine the winner of the election
+* Calculate how the total number of votes casted
+*	Retrieve all the names of register candidates 
+*	Determine the percentage of votes each candidate received
+*	The voter turnout for each county
+*	The percentage of votes from each county out of the total count
+*	The county with the highest turnout
+*	Determine the winner of the election
 
 
 Resources
