@@ -21,9 +21,9 @@ Summary
 Running the analysis of the election shows that 
 *	There were 369,771 total votes casted
 *	There were only 3 candidates in our data
-   *	Charles Casper Stocham: 23% of votes (85,213) votes count
-   *	Diana DeGette: 73.8 % of votes (272,892) votes count
-   *	Raymon Anthony Doane: 3.1% (11,606)
+     *	Charles Casper Stocham: 23% of votes (85,213) votes count
+     *	Diana DeGette: 73.8 % of votes (272,892) votes count
+     *	Raymon Anthony Doane: 3.1% (11,606)
 * Denver was the county with highest turnout 
 *	The county votes and turn outs was as follow:
 **	Jefferson: 10.5% (38,855)
