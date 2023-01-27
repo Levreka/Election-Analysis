@@ -24,12 +24,11 @@ Running the analysis of the election shows that
      *	Charles Casper Stocham: 23% of votes (85,213) votes count
      *	Diana DeGette: 73.8 % of votes (272,892) votes count
      *	Raymon Anthony Doane: 3.1% (11,606)
-* Denver was the county with highest turnout 
-*	The county votes and turn outs was as follow:
-**	Jefferson: 10.5% (38,855)
-**	Denver: 82.8% (306,055)
-*	Arapahoe: 6.7% (24801)
-*	Making the winner of the election Diane DeGette 
+* Denver was the county with highest turnout, the county votes and turn outs was as follow:
+     *	Jefferson: 10.5% (38,855)
+     *	Denver: 82.8% (306,055)
+     *	Arapahoe: 6.7% (24801)
+     *	Making the winner of the election Diane DeGette 
 
  ![image](https://user-images.githubusercontent.com/90356052/136720674-7fbc1fb7-c6f8-41bb-b177-87abb28345c0.png)
 
